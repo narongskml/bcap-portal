@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>BCAP System Service</title>
+    <!--<script src="https://cdn.tailwindcss.com"></script>-->
+    <script src="js/tailwincss.js"></script>
+</head>
+<body class="bg-white">
+
+<!-- Header Section -->
+<header class="flex justify-between items-center p-4 bg-white shadow-md">
+    <!-- Logo on the left -->
+    <div class="logo">
+        <img src="imgs/logo-bcap.svg" alt="BCAP Logo" class="h-12"> <!-- Replace with your logo path -->
+    </div>
+
+    <!-- Search input on the right -->
+
+        <div class="search flex items-center max-w-xs space-x-1">
+            
+            <input id="searchbox" type="search" placeholder="Search" class="form-input block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-full transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none">
+            
+            <button class="bg-blue-950 text-white rounded-full p-3 hover:bg-blue-800">
+                <img src="imgs/icon_search_wh.svg" alt="Search" class="h-4 w-4 "> <!-- Replace with your search icon path -->
+            </button>        
+        </div>
+
+</header>
+
+<!-- Main Content Section -->
+<main>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center justify-between bg-left-top bg-no-repeat h-64 w-full bg-sky-50" 
+        style="background-image: url('imgs/hero-banner.svg'); background-position: right; margin-right: 10%;"> <!-- Replace with your image path -->
+      <!-- System Service Text on the left -->
+      <h1 class="text-xl md:text-3xl lg:text-4xl font-bold text-blue-900 mx-8">SYSTEM SERVICE</h1>
+  </section>
+
+  <!-- Card Container Section -->
+  <section id="app-list" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-8">
+      <!-- Example Card Items -->
+      <a href="#" id="idver-app" class="bcap-app flex flex-col md:flex-row items-center p-4 bg-slate-50 rounded-lg shadow-md  hover:bg-blue-100">        
+            <img src="imgs/i-idcard-r.svg" alt="ID Verify" class="h-16 w-16 md:h-24 md:w-24 rounded-md drop-shadow-md"> <!-- Replace with your image path -->
+           <div class="ml-4">
+              <h2 class="text-lg font-semibold">ID Verification</h2>
+              <p class="text-gray-600">ตรวจสอบข้อมูลบุคคลและสถานะ<br>ของบัตรประจำตัวประชาชน</p>
+          </div>
+      </a>
+      <a href="#" id="led-app" class="bcap-app flex flex-col md:flex-row items-center p-4 bg-slate-50 rounded-lg shadow-md  hover:bg-blue-100">
+          <img src="imgs/i-LED-r.svg" alt="LED" class="h-16 w-16 md:h-24 md:w-24 rounded-md drop-shadow-md"> <!-- Replace with your image path -->
+          <div class="ml-4">
+              <h2 class="text-lg font-semibold">LED</h2>
+              <p class="text-gray-600">การตรวจสอบข้อมูลบุคคลล้มละลาย<br>(Legal Execution Department)</p>
+          </div>
+      </a>
+      <a href="#" id="cdd-app" class="bcap-app flex flex-col md:flex-row items-center p-4 bg-slate-50 rounded-lg shadow-md  hover:bg-blue-100">
+          <img src="imgs/i-CDD-r.svg" alt="CDD-DJ" class="h-16 w-16 md:h-24 md:w-24 rounded-md drop-shadow-md"> <!-- Replace with your image path -->
+          <div class="ml-4">
+              <h2 class="text-lg font-semibold">CDD-DJ</h2>
+              <p class="text-gray-600">การตรวจสอบรายชื่อบุคคลที่มีความเสี่ยงสูง<br>ด้านการฟอกเงิน (ปปง.)</p>
+          </div>
+      </a>
+      <a href="#" id="blacklist-app" class="bcap-app flex flex-col md:flex-row items-center p-4 bg-slate-50 rounded-lg shadow-md  hover:bg-blue-100">
+          <img src="imgs/i-Blacklist-r.svg" alt="BlackList" class="h-16 w-16 md:h-24 md:w-24 rounded-md drop-shadow-md"> <!-- Replace with your image path -->
+          <div class="ml-4">
+              <h2 class="text-lg font-semibold">Blacklist</h2>
+              <p class="text-gray-600">การตรวจสอบ Blacklist</p>
+              <ul>
+                <li>CDD/LED</li>
+                <li>Oppucation/Country</li>
+              </ul>
+          </div>
+      </a>
+      <a href="#" id="swan-app" class="bcap-app flex flex-col md:flex-row items-center p-4 bg-slate-50 rounded-lg shadow-md  hover:bg-blue-100">
+          <img src="imgs/i-SWAN-r.svg" alt="SWAN" class="h-16 w-16 md:h-24 md:w-24 rounded-md drop-shadow-md"> <!-- Replace with your image path -->
+          <div class="ml-4">
+              <h2 class="text-lg font-semibold">SWAN</h2>
+              <p class="text-gray-600">เปิดบัญชี Digital Private Fund</p>
+          </div>
+      </a>
+      <a href="#"  id="fireswan-app" class="bcap-app flex flex-col md:flex-row items-center p-4 bg-slate-50 rounded-lg shadow-md  hover:bg-blue-100">
+          <img src="imgs/i-FIRESWAN-r.svg" alt="FireSWAN" class="h-16 w-16 md:h-24 md:w-24 rounded-md drop-shadow-md"> <!-- Replace with your image path -->
+          <div class="ml-4">
+              <h2 class="text-lg font-semibold">Fire SWAN</h2>
+              <p class="text-gray-600">บริหารกองทุน Digital Private Fund</p>
+          </div>
+      </a>
+      <a href="#" id="pdpa-app" class="bcap-app flex flex-col md:flex-row items-center p-4 bg-slate-50 rounded-lg shadow-md  hover:bg-blue-100">
+          <img src="imgs/i-PDPA-r.svg" alt="PDPA" class="h-16 w-16 md:h-24 md:w-24 rounded-md drop-shadow-md"> <!-- Replace with your image path -->
+          <div class="ml-4">
+              <h2 class="text-lg font-semibold">PDPA</h2>
+              <p class="text-gray-600">Personal Data Protection Act</p>
+          </div>
+      </a>
+      <a href="#" id="crs-app" class="bcap-app flex flex-col md:flex-row items-center p-4 bg-slate-50 rounded-lg shadow-md  hover:bg-blue-100">
+          <img src="imgs/i-CRS-r.svg" alt="CRS" class="h-16 w-16 md:h-24 md:w-24 rounded-md drop-shadow-md"> <!-- Replace with your image path -->
+          <div class="ml-4">
+              <h2 class="text-lg font-semibold">CRS</h2>
+              <p class="text-gray-600">การจัดทำรายงาน CRS<br>(Common Reporting Standard)</p>
+          </div>
+      </a>
+      <a href="#" id="factsheet-app" class="bcap-app flex flex-col md:flex-row items-center p-4 bg-slate-50 rounded-lg shadow-md  hover:bg-blue-100">
+          <img src="imgs/i-Factsheet-r.svg" alt="Factsheet" class="h-16 w-16 md:h-24 md:w-24 rounded-md drop-shadow-md"> <!-- Replace with your image path -->
+          <div class="ml-4">
+              <h2 class="text-lg font-semibold">FACTSHEET</h2>
+              <p class="text-gray-600">การจัดทำหนังสือชี้ชวนส่วนสรุป<br>ข้อมูลสำคัญกองทุนรวม</p>
+          </div>
+      </a>
+      <a href="#" id="report-app" class="bcap-app flex flex-col md:flex-row items-center p-4 bg-slate-50 rounded-lg shadow-md  hover:bg-blue-100">
+          <img src="imgs/i-Report-r.svg" alt="Report Server" class="h-16 w-16 md:h-24 md:w-24 rounded-md drop-shadow-md"> <!-- Replace with your image path -->
+          <div class="ml-4">
+              <h2 class="text-lg font-semibold">REPORT SERVER</h2>
+              <p class="text-gray-600">ระบบออกรายงาน</p>
+          </div>
+      </a>
+      <a href="#" id="alfresco-app" class="bcap-app flex flex-col md:flex-row items-center p-4 bg-slate-50 rounded-lg shadow-md  hover:bg-blue-100">
+          <img src="imgs/i-ALFRESCO-r.svg" alt="ALFRESCO" class="h-16 w-16 md:h-24 md:w-24 rounded-md drop-shadow-md"> <!-- Replace with your image path -->
+          <div class="ml-4">
+              <h2 class="text-lg font-semibold">ALFRESCO</h2>
+              <p class="text-gray-600">ระบบจัดเก็บเอกสาร</p>
+          </div>
+      </a>
+      <a href="#" id="hibls-app" class="bcap-app flex flex-col md:flex-row items-center p-4 bg-slate-50 rounded-lg shadow-md  hover:bg-blue-100">
+          <img src="imgs/i-HiBLS-r.svg" alt="HIBLS" class="h-16 w-16 md:h-24 md:w-24 rounded-md drop-shadow-md"> <!-- Replace with your image path -->
+          <div class="ml-4">
+              <h2 class="text-lg font-semibold">HIBLS</h2>
+              <p class="text-gray-600">Hiport Integration Business Link System</p>
+          </div>
+      </a>
+  </section>
+
+</main>
+
+<!-- Footer Section -->
+<footer class="bg-blue-950 text-white text-center p-4">
+    <p>Bangkok Capital Asset Management</p>
+</footer>
+<script>
+   // JavaScript Filter Functionality
+
+   const filterInput =
+            document.getElementById('searchbox');
+        const listItems =
+            document.querySelectorAll('.bcap-app');
+
+        filterInput.addEventListener('input', function () {
+            const filterValue = filterInput.value.toLowerCase();
+            listItems.forEach(function (item) {
+                const text = item.innerText.toLowerCase();
+                if (text.includes(filterValue)) {
+                    item.classList.remove('hidden');
+                } else {
+                    item.classList.add('duration-700');
+                    item.classList.add('hidden');
+                }
+            });
+        });
+  
+</script>
+</body>
+</html>

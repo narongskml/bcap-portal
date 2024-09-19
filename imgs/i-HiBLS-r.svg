@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="96"
+   height="96"
+   viewBox="0 0 96 96"
+   fill="none"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="i-CDD-r.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9">
+    <linearGradient
+       id="paint0_linear_111_71"
+       x1="29.0924"
+       y1="23.2836"
+       x2="29.0924"
+       y2="36.9011"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.51"
+         stop-color="white"
+         id="stop26" />
+      <stop
+         offset="0.955"
+         stop-color="#CBC8C8"
+         id="stop27" />
+    </linearGradient>
+    <linearGradient
+       id="paint0_linear_111_206"
+       x1="25.584299"
+       y1="19.414801"
+       x2="28.408899"
+       y2="16.5867"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.36"
+         stop-color="#403572"
+         id="stop24" />
+      <stop
+         offset="1"
+         stop-color="white"
+         id="stop25" />
+    </linearGradient>
+    <linearGradient
+       id="paint1_linear_111_206"
+       x1="27.0002"
+       y1="19.4286"
+       x2="27.0002"
+       y2="16.5714"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#D3E6F5"
+         id="stop26-7" />
+      <stop
+         offset="1"
+         stop-color="#F0F7FC"
+         id="stop27-6" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="9.0348837"
+     inkscape:cx="30.492922"
+     inkscape:cy="50.415702"
+     inkscape:window-width="2400"
+     inkscape:window-height="1261"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <g
+       inkscape:groupmode="layer"
+       id="layer1"
+       inkscape:label="Layer 1">
+      <rect
+         style="fill:#e7f3ff"
+         id="rect9"
+         width="91.976845"
+         height="91.091393"
+         x="1.8815961"
+         y="2.4350061"
+         ry="10.293436" />
+      <g
+         id="g6"
+         transform="matrix(1.5186254,0,0,1.403851,21.633204,21.355212)">
+        <path
+           d="m 17.3456,47.5775 0.1638,0.1101 0.1637,-0.1101 c 3.6703,-6.5439 6.7767,-16.3116 -0.1637,-24.7633 -6.9542,8.4517 -3.8478,18.2423 -0.1638,24.7633 z"
+           fill="#c02032"
+           id="path1" />
+        <path
+           d="m 18.583,46.9035 c 7.4817,-5.6543 12.8849,-15.367 9.7604,-32.0318 -3.9114,1.8802 -6.9042,3.9163 -9.1373,6.0899 6.8267,9.1808 3.4338,19.1778 -0.6231,25.9419 z"
+           fill="#c02032"
+           id="path2" />
+        <path
+           d="M 16.4091,46.9035 C 12.343,40.1394 8.95917,30.1424 15.7859,20.9616 13.5483,18.788 10.5601,16.7335 6.6487,14.8717 3.52412,31.5365 8.92733,41.2492 16.4091,46.9035 Z"
+           fill="#c02032"
+           id="path3" />
+        <path
+           d="m 17.496,18.9164 c 2.6282,-2.711 5.6624,-4.9888 8.9917,-6.7503 C 22.5808,6.81448 17.728,0.298076 17.505,0 17.2822,0.298076 12.4294,6.81448 8.52246,12.1707 c 3.32364,1.76 6.35184,4.0364 8.97354,6.7457 z"
+           fill="#c02032"
+           id="path4" />
+        <path
+           d="m 8.22209,42.7441 c 0.90964,0.5228 4.47541,2.2058 6.90411,3.5357 C 8.34944,40.9649 3.21458,32.3298 4.10147,18.3065 L 3.81039,18.765 c -1.71011,2.7241 -9.72851,14.8947 4.4117,23.9791 z"
+           fill="#c02032"
+           id="path5" />
+        <path
+           d="m 30.8901,18.3065 c 0.9097,14.0141 -4.2388,22.6492 -11.0156,27.9733 2.4332,-1.3299 5.9763,-3.0037 6.8995,-3.5265 14.1449,-9.0844 6.1264,-21.2551 4.4164,-23.9791 z"
+           fill="#c02032"
+           id="path6" />
+      </g>
+    </g>
+  </g>
+</svg>
